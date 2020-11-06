@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+  background-color: #ecececb3;
+}
+.navbar-head{
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px #0000003b;
+  background: white;
+  color: rgba(0, 0, 0, 0.603);
+  position: sticky;
+  top:0;
+  z-index: 100;
+}
+.navbar-head img{
+  height: 33px;
+  width: 33px;
+  border: none;
+  border-radius: 100%;
+}
+.navbar-head .profile-image{
+  margin-left: 801px;
+}
+.navbar-head p{
+  position: relative;
+  top: 7px;
+  left: 20px;
+}
+.navbar-head input{
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  border-left: 2px solid #e2e2e2;
+  outline: none;
+}
+.navbar-head input::placeholder{
+  color: #e2e2e2;
+}
+.container .col .container{
+  background: white;
+  font-size: 13px;
+  height: 143px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px #00000014;
+  margin-left: 96px;
+  padding: 10px;
+}
+.col .title{
+  font-weight: 900;
+  color: #00000087;
+  text-align: left;
+  padding-left: 10px;
+}
+.col .description{
+  color: #0000007a;
+  padding-left: 10px;
+  text-align: justify;
+  padding-right: 11px
+}
+.col .added-by{
+  background: #9613e4;
+  text-align: center;
+  width: 27px;
+  padding: 4px;
+  border: none;
+  border-radius: 100%;
+  color: white;
+  margin-left: 10px;
+}
+.col .time{
+  color: #315246;
+  text-align: right;
+  padding-right: 16px;
+}
+.all-project-board{
+  margin-top: 33px;
+  font-family: QuickSand;
+}
