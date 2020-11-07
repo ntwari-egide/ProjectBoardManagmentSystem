@@ -68,7 +68,7 @@ export default class ProjectBoard extends Component{
         return (
             <div>
                 <div class="all-project-board container container row">
-                    <div class="col">
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4   ">
                     <h3>Backlog</h3>
                         {
                             Backlog.map((task,index) => 
@@ -77,7 +77,7 @@ export default class ProjectBoard extends Component{
                                 <p class="description">{task.description}</p>
                                 <div class="row"> 
                                     <div class="col"> 
-                                        <p class="added-by">{task.addedBy}</p>
+                                        <a class="added-by">{task.addedBy}</a>
                                     </div>
                                     <div class="col"> 
                                         <p class="time">{task.time}</p>
@@ -87,7 +87,7 @@ export default class ProjectBoard extends Component{
                             )
                         }
                     </div>
-                    <div class="col">
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 ">
                     <h3>ToDo</h3>
                     {
                         ToDo.map((task,index) => 
@@ -96,7 +96,7 @@ export default class ProjectBoard extends Component{
                                 <p class="description">{task.description}</p>
                                 <div class="row"> 
                                     <div class="col"> 
-                                        <p class="added-by">{task.addedBy}</p>
+                                        <a class="added-by">{task.addedBy}</a>
                                     </div>
                                     <div class="col"> 
                                         <p class="time">{task.time}</p>
@@ -106,7 +106,7 @@ export default class ProjectBoard extends Component{
                             )
                         }
                     </div>
-                    <div class="col">
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 ">
                     <h3>Done</h3>
                     {
                         Done.map((task,index) => 
@@ -115,7 +115,7 @@ export default class ProjectBoard extends Component{
                                 <p class="description">{task.description}</p>
                                 <div class="row"> 
                                     <div class="col"> 
-                                        <p class="added-by">{task.addedBy}</p>
+                                        <a class="added-by">{task.addedBy}</a>
                                     </div>
                                     <div class="col"> 
                                         <p class="time">{task.time}</p>
